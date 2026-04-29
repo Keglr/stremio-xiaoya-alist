@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  stremio-xiaoya:
+    build: .
+    container_name: stremio-xiaoya-alist
+    restart: unless-stopped
+    ports:
+      - "7070:7070"
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs

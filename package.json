@@ -1,0 +1,14 @@
+{
+  "name": "stremio-xiaoya-alist",
+  "version": "1.0.0",
+  "description": "Stremio addon for Xiaoya Alist - search and play with direct links",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
